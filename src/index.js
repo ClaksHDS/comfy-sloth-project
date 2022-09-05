@@ -8,6 +8,9 @@ import { CartProvider } from "./context/cart_context";
 import { UserProvider } from "./context/user_context";
 import { Auth0Provider } from "@auth0/auth0-react";
 
+// domain = dev-jnfv6hxx.eu.auth0.com
+// clientId = 4cYxF0lcTZ9R93jyP0zj04ZSjctE3cBw
+
 ReactDOM.render(
   <ProductsProvider>
     <FilterProvider>
